@@ -7,9 +7,9 @@ import dados.RepositorioPatio;
 import negocio.*;
 import negocio.AuxiliarAdm;
 import negocio.exceptions.VagaInsuficienteException;
-
 import java.util.List;
 import java.util.ArrayList;
+
 public class DistribuidoraFachada {
     private RepositorioCliente repositorioCliente = new RepositorioCliente();
     private RepositorioEstoque repositorioEstoque = new RepositorioEstoque();
