@@ -29,16 +29,14 @@ public class AuxiliarAdm extends Funcionario {
         this.repEstoque = repEstoque;
         this.repPatio = repPatio;
         this.clientesLista = new ArrayList<>();
-       // this.caminhoesLista = new ArrayList<>();
         this.produtosLista = new ArrayList<>();
     }
 
     public AuxiliarAdm(String login, String matricula){
         super(matricula);
         this.login = login;
-        matricula = matricula;
+        this.setMatricula(matricula);
         this.clientesLista = new ArrayList<>();
-       // this.caminhoesLista = new ArrayList<>();
         this.produtosLista = new ArrayList<>();
     }
 
